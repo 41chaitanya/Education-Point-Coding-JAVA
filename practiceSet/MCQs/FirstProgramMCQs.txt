@@ -1,0 +1,158 @@
+1. What is the purpose of the public keyword in Java?
+a) To restrict access to a class
+b) To make a class or method accessible outside its package
+c) To declare variables accessible only in the same package
+d) To define constants
+
+
+
+2. Why must the class name and file name match in a Java program with a public class?
+a) To enable polymorphism
+b) To allow multiple classes in the same file
+c) To adhere to Java’s file-naming convention for public classes
+d) To improve runtime performance
+
+
+3. What is the significance of the static keyword in the main method?
+a) It makes the main method final.
+b) It allows the JVM to invoke the main method without creating an object of the class.
+c) It improves performance during method execution.
+d) It makes the main method private.
+
+
+
+4. What is the role of void in the main method?
+a) It specifies the method does not take arguments.
+b) It indicates the method cannot return an object.
+c) It signifies the method does not return any value.
+d) It denotes that the method is private.
+
+
+5. What type is the parameter args in the main method?
+a) A single string
+b) An array of strings
+c) A list of integers
+d) A map of key-value pairs
+
+
+6. Which of the following streams is used for standard output?
+a) System.err
+b) System.out
+c) System.in
+d) System.console
+
+
+
+7. What does System.err stream handle?
+a) Standard input
+b) Standard output
+c) Error output
+d) File input
+
+
+8. How does PrintStream handle data internally?
+a) It converts data to raw bytes without buffering.
+b) It buffers data temporarily before writing it to the output stream.
+c) It writes data directly to a database.
+d) It sends data directly to memory without formatting.
+
+
+9. Which method is used to print a line of text and flush the output buffer?
+a) write()
+b) flush()
+c) println()
+d) readLine()
+
+
+
+10. What will happen if you pass an integer as a command-line argument?
+a) It will throw an error.
+b) It will be treated as an integer.
+c) It will be treated as a string.
+d) It will be ignored.
+
+
+11. How can you redirect the standard output to a file?
+a) By using System.setOut()
+b) By using System.out.write()
+c) By overriding the main method
+d) By using System.console()
+
+
+
+12. Which of the following is true about System.out?
+a) It is a static method.
+b) It is an instance of the PrintWriter class.
+c) It is a static field of the System class.
+d) It is used only for debugging.
+
+
+
+13. What is the default behavior of System.in?
+a) It reads input from a file.
+b) It reads input from the keyboard.
+c) It automatically reads input from System.out.
+d) It is disabled by default.
+
+
+
+14. Why is buffering used in PrintStream?
+a) To reduce the memory usage
+b) To enhance I/O performance by minimizing direct interaction with the output device
+c) To improve code readability
+d) To prevent overwriting data
+
+
+15. Can multiple classes in a file contain a main method?
+a) Yes, but only one can be executed at runtime.
+b) No, only one class can have the main method.
+c) Yes, and all are executed simultaneously.
+d) No, because the JVM does not allow it.
+
+
+16. What happens if void is omitted in the main method?
+a) The program runs as usual.
+b) Compilation error.
+c) Runtime error.
+d) JVM ignores the method.
+
+
+
+17. What does String... args in the main method signify?
+a) It is invalid syntax.
+b) It allows passing an array or variable arguments.
+c) It is used for multi-threading.
+d) It enables passing integers instead of strings.
+
+
+
+18. Which of these is NOT a valid modifier for the main method?
+a) final
+b) public
+c) static
+d) private
+
+
+
+19. What is the output of the following code?
+java
+Copy code
+public class Test {
+    public static void main(String[] args) {
+        System.out.println(args.length);
+    }
+}
+If run as java Test Hello World: a) 0
+b) 1
+c) 2
+d) Compilation Error
+
+
+
+20. What is the result of using System.err.println() instead of System.out.println()?
+a) Output is displayed in red.
+b) Output is directed to the error stream.
+c) Output is ignored.
+d) It causes a runtime exception.
+
+
