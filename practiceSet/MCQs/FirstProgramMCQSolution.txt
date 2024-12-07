@@ -1,0 +1,86 @@
+1.
+Answer: b) To make a class or method accessible outside its package
+Explanation: The public modifier ensures that the class or method can be accessed from any other class, regardless of the package.
+
+2.
+Answer: c) To adhere to Java’s file-naming convention for public classes
+Explanation: Java requires the file name to match the public class name to ensure consistency during compilation.
+
+3.
+Answer: b) It allows the JVM to invoke the main method without creating an object of the class.
+Explanation: Static methods can be called without creating an instance, which is essential for the JVM to start program execution.
+
+4.
+Answer: c) It signifies the method does not return any value.
+Explanation: void is used to declare that a method does not return any value.
+
+5.
+Answer: b) An array of strings
+Explanation: args is an array of String objects that stores command-line arguments.
+
+6.
+Answer: b) System.out
+Explanation: System.out refers to the standard output stream, typically the console.
+
+7.
+Answer: c) Error output
+Explanation: System.err is used for error messages and diagnostics, separate from System.out.
+
+8.
+Answer: b) It buffers data temporarily before writing it to the output stream.
+Explanation: PrintStream uses a buffer to improve I/O efficiency.
+
+9.
+Answer: c) println()
+Explanation: The println() method prints a line of text and automatically flushes the buffer.
+
+10.
+Answer: c) It will be treated as a string.
+Explanation: Command-line arguments are always passed as strings in the args array.
+
+11.
+Answer: a) By using System.setOut()
+Explanation: System.setOut() allows you to change the destination of System.out.
+
+12.
+Answer: c) It is a static field of the System class.
+Explanation: System.out is a static field referencing a PrintStream object.
+
+13.
+Answer: b) It reads input from the keyboard.
+Explanation: System.in is connected to the keyboard by default for standard input.
+
+14.
+Answer: b) To enhance I/O performance by minimizing direct interaction with the output device
+Explanation: Buffering reduces the number of interactions with the output device, improving efficiency.
+
+15.
+Answer: a) Yes, but only one can be executed at runtime.
+Explanation: Multiple classes can have a main method, but you must specify which class to execute.
+
+16.
+Answer: b) Compilation error.
+Explanation: void is required in the main method signature for the JVM to recognize it.
+
+17.
+Answer: b) It allows passing an array or variable arguments.
+Explanation: String... is a varargs syntax equivalent to String[].
+
+18.
+Answer: d) private
+Explanation: The main method must be public for the JVM to access it.
+
+19.
+Answer: c) 2
+Explanation: args contains two elements: "Hello" and "World".
+
+20.
+Answer: b) Output is directed to the error stream.
+Explanation: System.err writes to the error stream, separate from the standard output.
+
+
+
+
+
+
+

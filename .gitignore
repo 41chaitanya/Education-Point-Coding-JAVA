@@ -67,5 +67,9 @@ node_modules/
 .env
 .env.local
 LectureCharCha
-FirstProgramMCQSolution.txt
-
+VaiablesAndDataTypes.txt
+TypeConversion.txt
+DataTypeInJava.java
+StringsInJava.java
+StringMethodsinJava.java
+TypeConversionInJava.java
