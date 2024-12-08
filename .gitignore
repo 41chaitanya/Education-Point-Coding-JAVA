@@ -67,7 +67,7 @@ node_modules/
 .env
 .env.local
 LectureCharCha
-VaiablesAndDataTypes.txt
+
 TypeConversion.txt
 DataTypeInJava.java
 StringsInJava.java

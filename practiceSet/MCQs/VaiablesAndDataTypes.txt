@@ -1,0 +1,127 @@
+1 What is the size of a byte data type in Java?
+
+a) 8 bits
+b) 16 bits
+c) 32 bits
+d) 64 bits
+
+2 Which of the following is the correct way to declare a variable in Java?
+
+a) int x = 10;
+b) x = 10; int;
+c) x: 10; int
+d) int x: 10;
+
+3 What will be the output of the following code?
+
+int a = 10;
+int b = 20;
+System.out.println(a + b);
+
+a) 30
+b) 1020
+c) 10 + 20
+d) 200
+
+4 Which of the following is true about primitive data types in Java?
+
+a) They are always passed by reference.
+b) They are always passed by value.
+c) They can be null.
+d) They are objects.
+
+5 Which of these data types is used to represent a decimal number in Java?
+
+a) int
+b) float
+c) boolean
+d) char
+
+6 What will be the output of the following code?
+
+String str = "Java";
+System.out.println(str.toUpperCase());
+
+a) JAVA
+b) Java
+c) java
+d) ERROR
+
+7 Which of these data types can be used for single characters?
+
+a) String
+b) char
+c) boolean
+d) float
+
+8 What is the default value of a boolean in Java?
+
+a) 0
+b) false
+c) true
+d) null
+
+9 Which of the following is not a valid data type in Java?
+
+a) int
+b) float
+c) integer
+d) boolean
+
+10 What is the default value of a char in Java?
+
+a) '\0'
+b) ' '
+c) 0
+d) null
+
+11 What is the maximum value that can be stored in a byte variable in Java?
+
+a) 127
+b) 255
+c) 32767
+d) 2147483647 
+
+
+13 What is the size of a long data type in Java?
+
+a) 4 bytes
+b) 8 bytes
+c) 2 bytes
+d) 1 byte
+
+
+
+15 Which of the following is a reference data type in Java?
+
+a) int
+b) char
+c) String
+d) boolean
+
+16 Which of these statements is true about variables in Java?
+
+a) A variable must always be initialized before it is used.
+b) A variable can be declared with any name.
+c) Variables can be declared without specifying a data type.
+d) Variables cannot hold primitive values.
+
+17 Which of the following is the correct way to declare a constant variable in Java?
+
+a) int x = 10;
+b) final int x = 10;
+c) const int x = 10;
+d) int final x = 10;
+
+18 What will be the output of the following code?
+
+int num = 100;
+System.out.println(num / 3);
+
+a) 33.33
+b) 33
+c) 34
+d) 100/3
+
+
+
