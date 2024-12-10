@@ -1,0 +1,95 @@
+1 Which type of conversion happens automatically in Java?
+
+a) Widening
+b) Narrowing
+c) Explicit
+d) Type casting
+
+2 What will be the output of the following code?
+
+double d = 100;
+int i = (int) d;
+System.out.println(i);
+
+a) 100.0
+b) 100
+c) Compilation Error
+d) Runtime Error
+
+3 What is the result of the following code?
+
+
+int x = 200;
+byte b = (byte) x;
+System.out.println(b);
+
+a) 200
+b) 0
+c) -56
+d) Compilation Error
+
+4 Which of these is a correct implicit conversion in Java?
+
+a) int to double
+b) double to int
+c) long to short
+d) byte to short
+
+5 What will happen if you try to assign a long value to an int variable without casting?
+
+a) Compile-time error
+b) Implicit conversion
+c) Runtime error
+d) The value will be truncated
+
+6 Which of these is NOT a valid widening conversion?
+
+a) byte to int
+b) short to long
+c) int to double
+d) double to float
+
+7 What is the output of the following code?
+
+
+char c = 'A';
+int i = c;
+System.out.println(i);
+
+a) 65
+b) 'A'
+c) Compilation Error
+d) None of the above
+
+8 What is the size of a typecasted float variable in bytes?
+
+a) 4 bytes
+b) 8 bytes
+c) 2 bytes
+d) 16 bytes
+
+9 What does (short) 32768 evaluate to in Java?
+
+a) -32768
+b) 32768
+c) 0
+d) 1
+
+10 Which of the following can result in loss of precision?
+
+a) Casting int to long
+b) Casting double to float
+c) Casting byte to int
+d) Assigning float to double
+
+5 Coding Questions on Type Conversion and Casting
+
+1 Write a program to demonstrate implicit and explicit type casting. Example: Convert an int to double implicitly and a double to int explicitly.
+
+2 Write a program to safely convert an int to a short without losing data. If the value exceeds the range of short, print an error message.
+
+3 Write a program that takes a character as input and converts it to its ASCII value using type conversion.
+
+4 Write a program that converts a double value to an int and prints both values. Example: double d = 123.456; should print both the original value and the truncated value.
+
+5 Write a program to convert a long to a byte and demonstrate overflow. Example: Assign a value greater than the maximum byte range to a long and observe the result when cast to byte.
