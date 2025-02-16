@@ -67,6 +67,8 @@ node_modules/
 .env
 .env.local
 LectureCharCha
-StringsInJava.java
-StringMethodsinJava.java
+Intro_strings.java
+Methods_In_Strings.java
+PrintlnPrintfPrint.java
+
 
